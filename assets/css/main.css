@@ -31,25 +31,25 @@ text-align: center;/*一応BOX内の文字も中央寄せ*/
 }
 .nav li a {
   display: block;
-  width: 150px;
+  width: 180px;
   height: 40px;
   text-align: center;
   color: #fff;
-  font-size: 14px;
-  line-height: 2.8;
-  background: #9fb7d4;
+  font-size: 18px;
+  line-height: 2.2;
+  background: #e5e5ff;
   transition: 0.5s;
   text-decoration: none;
   border-right: 1px solid #eee;
   box-sizing: border-box;
 }
 .nav > li:hover > a {/*layer-1*/
-  color: orange;
-  background: #afc6e2;
+  color: #ffc68e;
+  background: ;
 }
 .nav > li li:hover > a {/*layer-2*/
-  color: olive;
-  background: #afc6e2;
+  color: #7fffbf;
+  background: #efefff;
 }
 .nav li ul {
   top: 40px;
@@ -70,7 +70,7 @@ text-align: center;/*一応BOX内の文字も中央寄せ*/
 }
   .nav li ul li ul {
     top: 0;
-    left: 110px;
+    left: 140px;
   }
   .nav li ul li ul:before {/*layer-2▷*/
     position: absolute;
@@ -82,7 +82,7 @@ text-align: center;/*一応BOX内の文字も中央寄せ*/
   }
   .nav li ul li ul li:hover > a {/*layer-3*/
     color: pink;
-    background: #afc6e2;
+    background: #efefff;
   }
   .nav li ul li ul.left {
     top: 0;
@@ -99,11 +99,11 @@ text-align: center;/*一応BOX内の文字も中央寄せ*/
   }
   .nav li ul li ul.left li:hover > a {/*layer-2-left*/
     color: pink;
-    background: #afc6e2;
+    background: #efefff;
   }
   .nav li ul li ul li ul.left li:hover > a {/*layer-3-left*/
     color: purple;
-    background: #afc6e2;
+    background: #efefff;
   }
 .content {
   width: 750px;
